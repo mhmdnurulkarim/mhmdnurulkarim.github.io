@@ -5,7 +5,12 @@
     <!-- <link rel="icon" href="/assets/img/" />
     <link rel="apple-touch-icon" href="/assets/img/" />  -->
     <link id="custom" rel="stylesheet" href="/assets/css/custom.css" />
-    <link id="bootstrap_theme" rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <title>Karim.2501</title>
   </head>
   <body id="home">
@@ -39,10 +44,10 @@
                 <a href="#about" class="nav-link text-uppercase font-weight">About</a>
               </li>
               <li class="nav-item">
-                <a href="#gallery" class="nav-link text-uppercase font-weight">Gallery</a>
+                <a href="#project" class="nav-link text-uppercase font-weight">Project</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight">Project</a>
+                <a href="#gallery" class="nav-link text-uppercase font-weight">Gallery</a>
               </li>
               <li class="nav-item">
                 <a href="#contact" class="nav-link text-uppercase font-weight">Contact Me</a>
@@ -56,12 +61,13 @@
 
     <!-- Hero Section Start -->
     <section class="jumbotron text-center">
-      <img
-        src="/assets/img/Profile.png"
-        alt="Karim.2501"
-        width="200"
-        class="rounded-circle img-thumbnail"
-      />
+      <a href="https://github.com/Karim2501" target="_blank">
+        <img
+          src="/assets/img/Profile.png"
+          alt="Karim.2501"
+          width="200"
+          class="rounded-circle img-thumbnail"
+      /></a>
       <h1 class="display-6">Muhammad Nurul Karim</h1>
       <p class="lead">Mahasiswa STMIK Indonesia Padang</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -107,66 +113,44 @@
     </section>
     <!-- ABout End -->
 
-    <!-- Gallery Start -->
-    <section id="gallery">
+    <!-- Project Start -->
+    <section id="project">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Gallery</h2>
+            <h2>Project</h2>
           </div>
         </div>
         <div class="row justify-content-center mb-3">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="assets/img/G1.png" alt="Gallery 1" class="card-img-top" />
+              <img src="assets/img/P1.jpg" alt="Project 1" class="card-img-top" />
               <div class="card-body">
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat quas
-                  ipsum minima incidunt eum vel nam expedita iusto totam.
+                  I Log U adalah sebuah program yg kami rancang untuk melacak kasus covid yg berada
+                  pada lingkungan sekolah/masyarakat umum.
                 </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="assets/img/G2.png" alt="Gallery 2" class="card-img-top" />
+              <img src="assets/img/P2.jpg" alt="Project 2" class="card-img-top" />
               <div class="card-body">
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat quas
-                  ipsum minima incidunt eum vel nam expedita iusto totam.
+                  Mikrotik Login Hotspot adalah sebuah website yg digunakan untuk login wifi hotspot
+                  yg berada di tempat umum. Website ini sudah responsive ke setiap HP
                 </p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="assets/img/G3.png" alt="Gallery 3" class="card-img-top" />
+              <img src="assets/img/P3.jpg" alt="Project 3" class="card-img-top" />
               <div class="card-body">
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat quas
-                  ipsum minima incidunt eum vel nam expedita iusto totam.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/G4.png" alt="Gallery 4" class="card-img-top" />
-              <div class="card-body">
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat quas
-                  ipsum minima incidunt eum vel nam expedita iusto totam.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/G5.png" alt="Gallery 5" class="card-img-top" />
-              <div class="card-body">
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat quas
-                  ipsum minima incidunt eum vel nam expedita iusto totam.
+                  NEXT? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat
+                  quas ipsum minima incidunt eum vel nam expedita iusto totam.
                 </p>
               </div>
             </div>
@@ -181,68 +165,38 @@
         ></path>
       </svg>
     </section>
-    <!-- Gallery End -->
+    <!-- Project End -->
 
-    <!-- Project Start -->
-    <section id="project">
+    <!-- Gallery Start -->
+    <section id="gallery">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Project</h2>
+            <h2>Gallery</h2>
           </div>
         </div>
-        <div class="row justify-content-center mb-3">
-          <div class="col-8 mb-3">
-            <div id="project" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#Slide1"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#Slide2"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#Slide3"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
+        <!-- masih ada yg kurang puas disini -->
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div id="gallery" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="/assets/img/P1.jpg" class="d-block w-100" alt="Project 1" />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                  </div>
+                  <img src="/assets/img/G1.jpg" class="d-block w-100" alt="Gallery 1" />
                 </div>
                 <div class="carousel-item">
-                  <img src="/assets/img/P2.jpg" class="d-block w-100" alt="Project 2" />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                  </div>
+                  <img src="/assets/img/G2.jpg" class="d-block w-100" alt="Gallery 2" />
                 </div>
                 <div class="carousel-item">
-                  <img src="/assets/img/P3.jpg" class="d-block w-100" alt="Project 3" />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                  </div>
+                  <img src="/assets/img/G3.jpg" class="d-block w-100" alt="Gallery 3" />
+                </div>
+                <div class="carousel-item active">
+                  <img src="/assets/img/G4.jpg" class="d-block w-100" alt="Gallery 4" />
                 </div>
               </div>
               <button
                 class="carousel-control-prev"
                 type="button"
-                data-bs-target="#prev"
+                data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev"
               >
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -251,7 +205,7 @@
               <button
                 class="carousel-control-next"
                 type="button"
-                data-bs-target="#next"
+                data-bs-target="#carouselExampleControls"
                 data-bs-slide="next"
               >
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -269,7 +223,7 @@
         ></path>
       </svg>
     </section>
-    <!-- Project End -->
+    <!-- Gallery End -->
 
     <!-- Contact Me Start -->
     <section id="contact">
@@ -279,20 +233,50 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <form>
+            <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+              Pesan anda <strong>Sukses Terkirim</strong>, Kami akan segera membalas pesan anda.
+              Terimakasih!
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+            <form name="Email-dari-portofolio">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                  name="nama"
+                />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                  name="email"
+                />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                Loading...
+              </button>
             </form>
           </div>
         </div>
@@ -318,7 +302,33 @@
     </footer>
     <!-- Footer End -->
 
-    <script src="/assets/js/bootstrap.bundle.js"></script>
-    <script src="/assets/js/custom.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbz7Ipu5Qb_FPSnTh7jWwxWBPx9wbketltlfC6ys2heeuuUhR95dIJuoDoDBPHR9nEv9/exec";
+      const form = document.forms["Email-dari-portofolio"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            myAlert.classList.toggle("d-none");
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>
