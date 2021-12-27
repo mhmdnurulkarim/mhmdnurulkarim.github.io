@@ -254,7 +254,7 @@
                   type="text"
                   class="form-control"
                   id="name"
-                  required="true"
+                  required
                   aria-describedby="name"
                   name="nama"
                 />
@@ -265,7 +265,7 @@
                   type="email"
                   class="form-control"
                   id="email"
-                  required="true"
+                  required
                   aria-describedby="email"
                   name="email"
                 />
@@ -282,13 +282,7 @@
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea
-                  class="form-control"
-                  id="pesan"
-                  required="true"
-                  rows="3"
-                  name="pesan"
-                ></textarea>
+                <textarea class="form-control" id="pesan" required rows="3" name="pesan"></textarea>
               </div>
               <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
               <button class="btn btn-primary btn-loading d-none" type="button" disabled>
