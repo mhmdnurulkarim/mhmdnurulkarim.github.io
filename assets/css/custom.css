@@ -22,3 +22,16 @@ section {
 #gallery .row > * {
   padding: 0;
 }
+
+a:link,
+a:visited {
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
