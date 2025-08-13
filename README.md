@@ -1,4 +1,4 @@
-# Portfolio Redirect
+# Redirect
 
 This repository is used solely for redirecting visitors from my GitHub Pages site to my portfolio website hosted on Vercel.
 
